@@ -1,0 +1,41 @@
+homework1:
+total 4
+drwxr-xr-x. 3 myid 28 Jan 17 18:12 bin
+-rw-r--r--. 1 myid  0 Jan 17 19:37 rec5032
+drwxr-xr-x. 3 myid 28 Jan 17 18:06 src
+-rw-r--r--. 1 myid 26 Jan 17 19:13 SUBMISSION.md
+
+homework1/bin:
+total 0
+drwxr-xr-x. 4 myid 48 Jan 17 18:25 cs1302
+
+homework1/bin/cs1302:
+total 0
+drwxr-xr-x. 2 myid 33 Jan 17 18:12 example
+drwxr-xr-x. 2 myid 37 Jan 17 18:48 utility
+
+homework1/bin/cs1302/example:
+total 4
+-rw-r--r--. 1 myid 1351 Jan 17 19:27 Hello.class
+
+homework1/bin/cs1302/utility:
+total 4
+-rw-r--r--. 1 myid 301 Jan 17 19:27 MyMethods.class
+
+homework1/src:
+total 0
+drwxr-xr-x. 4 myid 48 Jan 17 18:39 cs1302
+
+homework1/src/cs1302:
+total 0
+drwxr-xr-x. 2 myid 24 Jan 17 19:32 example
+drwxr-xr-x. 2 myid 36 Jan 17 19:32 utility
+
+homework1/src/cs1302/example:
+total 4
+-rw-r--r--. 1 myid 771 Jan 17 19:25 Hello.java
+
+homework1/src/cs1302/utility:
+total 4
+-rw-r--r--. 1 myid 207 Jan 17 19:27 MyMethods.java
+/home/myid/jlz44196/homework1:/home/myid/csci-1302

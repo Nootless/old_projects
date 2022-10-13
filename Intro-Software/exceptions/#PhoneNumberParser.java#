@@ -1,0 +1,9 @@
+package cs1302.exceptions;
+
+public class PhoneNumberParser{
+    public static void main(String[] args) {
+        String phoneNumber = args[0];
+        int areaCode = 0, prefix = 0, lineNumber = 0;
+        try {
+            areaCode = Integer.parseInt(phoneNumber.substring(0,3));
+            
