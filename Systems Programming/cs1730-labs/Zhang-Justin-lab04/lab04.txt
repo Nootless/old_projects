@@ -1,0 +1,107 @@
+Justin Zhang (811-735-055)
+
+2) Warmup Activity
+
+ (a) Symbol Name | Type   | Memory Address | Value
+     interger1   | int    |       80       |  10
+            p1   | int *  |       84       |  0x7ffecd145764
+            p2   | int ** |       92       |  0x7ffecd145758
+
+ (b) 11
+
+ (c) 11
+
+ (d) 10
+
+ (e) This is because (c) increments the integer value while (d)
+     increments the pointer p2, which holds a memory address. This
+     means (d) would increment the memory address rather than a value.
+
+ 2.
+
+ (a) p2 represents a pointer which holds the memory address of another pointer
+     which could hold the memory address of an integer.
+
+ (b) This would not compile because p2 stores the address of p1, and can not directly
+     store the same address that p1 stores.
+
+
+
+ 3) Arrays and Pointers Activity
+
+ (a) It is an int pointer
+
+ (b) 0
+
+ (c) 0
+
+ (d) 0
+     1
+     2
+     3
+     4
+     5
+     6
+     7
+     8
+     9
+
+ (e) It will not change, because the pointer will add the current iteration
+     and then at the address it will assign the current iteration of the loop or the
+     index of the array.
+
+ (f) The output would not change because p1 and p2 point to the same address. The only difference
+     is that p1 is first assigned to the address of iarray, the first index, and p2
+     is assigned to the address of the first index of iarray.
+
+ (g) It would change as it would increment the pointer by 1 array index and cause it to
+     go start at the 1st index instead of the 0th index and finish at the 10th instead of 9th.
+     Additionally, this would shift the pointer over by 10, causing the values to be printed to
+     be of whatever the system has, in multiples of 4, 10 memory locations and not the array.
+
+
+
+ 4) Functions, Pointers, and Tricky Declarations Activity
+
+ 1.
+   Output -
+   22
+   11
+
+ 2. This is because it is used to get the address of 'x' to the overloaded divBy2 method
+    which requires the parameter takes in a pointer that has its address as 'x'.
+
+
+
+ 5) Const Pointers Activity
+
+ (a) The first statement is valid and the second statement is also valid.
+
+ (b) The first statement is valid, the second is invalid, and the third is valid.
+     The second is invalid because the is a constant before int, meaning the value
+     at the address the pointer is pointing to can not be changed.
+
+ (c) The first statement is valid, the second is invalid, and the third is invalid.
+     The second is invalid because there is a constant before int, meaning the value
+     at the address the pointer is pointing to can not be changed.
+     The third is invalid because there is a constant after the '*', meaining the
+     pointer can not have the address it is pointing to changed.
+
+ 2.
+
+ (a) The first statement is valid, the second is valid, and the third is invalid.
+     The third is invalid because the function has no overloaded '++' operator.
+
+ (b) The first statement is valid, the second is valid, the third is invalid, the fourth
+     is invalid, the fifth is invalid.
+     The third is invalid because the pointer points to a constant and the value
+     at the address pointed to can not be changed.
+     The fourth is invalid because there is no overload operator for '++' for the function.
+     The fifth is invalid because the function call returns a constant and can not have its value
+     changed.
+
+ (c) The first statement is valid, the second is valid, the third is invalid, the fourth is invalid,
+     and the fifth is valid.
+     The third is invalid because the pointer points to a constant int, and can not change the value
+     of any address it points to.
+     The fourth is invalid because the function itself does not have an overloaded '++' operator.

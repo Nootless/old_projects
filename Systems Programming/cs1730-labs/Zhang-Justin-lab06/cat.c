@@ -1,0 +1,58 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <string.h>
+
+int main(int argc, char* argv[]) {
+
+
+    int n;
+    int fileDesc;
+	char input [1024];
+
+    if (argc == 1) {
+        // reads standard input if the user specifies NO arguments
+        while ((n = read(STDIN_FILENO, input, 1024)) > 0) { // reads the input and stores
+            if(write(STDOUT_FILENO, input, n) != n) { // writes to screen
+                perror("write error"); // error if the bytes written don't equal the bytes stored
+            } // if
+        } // while
+        if(n == -1) perror("read");
+
+    } else {
+
+        for ( int i = 1; i < argc; i++) {
+
+            if (*argv[i] == '-') { // reads from standard input if the user specifies '-'
+
+                while ((n = read(STDIN_FILENO, input, 1024)) > 0) {
+                    // same functionality as if
+                    // user specifies NO arguments
+                    if(write(STDOUT_FILENO, input, n) != n) {
+                        perror("write error");
+                    } // if
+                } // while
+
+                if(n == -1) perror("read");
+
+            } else {
+
+                if ( (fileDesc = open(argv[i], O_RDONLY)) == -1 ) {
+                    perror("Opening File Error");
+                } else {
+                    while((n = read(fileDesc, input, 1024)) > 0) {
+                        if(write(STDOUT_FILENO, input, n) != n) {
+                            perror("write error");
+                        } // if
+                    } // while
+
+                    if(n == -1) perror("read");
+
+                } // if
+            } // if
+
+
+        } // for
+    } // if
+
+} // main

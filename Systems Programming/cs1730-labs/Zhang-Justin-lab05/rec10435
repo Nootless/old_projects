@@ -1,0 +1,20 @@
+Zhang-Justin-lab05/:
+total 88
+-rwxr-xr-x. 1 myid 8312 Jul 22 15:00 firstline
+-rw-r--r--. 1 myid  443 Jul 22 14:16 firstline.c
+-rwxr-xr-x. 1 myid 8312 Jul 22 15:00 lastline
+-rw-r--r--. 1 myid  362 Jul 21 16:22 #lastline.c#
+-rw-r--r--. 1 myid  487 Jul 22 14:15 lastline.c
+-rwxr-xr-x. 1 myid 8264 Jul 22 15:00 longestline
+-rw-r--r--. 1 myid 1022 Jul 22 14:53 longestline.c
+-rw-r--r--. 1 myid  220 Jul 22 15:00 makefile
+-rw-r--r--. 1 myid   26 Jul 15 00:22 README.md
+-rw-r--r--. 1 myid    0 Jul 22 15:35 rec10435
+-rw-r--r--. 1 myid   25 Jul 21 15:33 test1
+-rw-r--r--. 1 myid   24 Jul 21 15:33 test2
+-rw-r--r--. 1 myid   12 Jul 21 15:33 test3
+-rw-r--r--. 1 myid   13 Jul 21 15:33 test4
+-rw-r--r--. 1 myid   11 Jul 21 15:33 test5
+-rw-r--r--. 1 myid    4 Jul 21 15:33 test6
+-rw-r--r--. 1 myid   16 Jul 21 15:33 test7
+/home/myid/jlz44196/cs1730/cs1730-labs/Zhang-Justin-lab05/:/home/myid/csci-1730

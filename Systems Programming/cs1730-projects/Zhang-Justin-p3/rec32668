@@ -1,0 +1,17 @@
+Zhang-Justin-p3:
+total 92
+-rw-r--r--. 1 myid   183 Jul 28 18:22 env.c
+-rw-r--r--. 1 myid    89 Jul 28 18:17 false.c
+-rw-r--r--. 1 myid    30 Aug  1 07:01 file.2
+-rw-r--r--. 1 myid 10539 Aug  2 23:21 #head.c#
+-rw-r--r--. 1 myid 10546 Aug  2 23:20 head.c
+-rw-r--r--. 1 myid   323 Aug  2 23:22 makefile
+-rw-r--r--. 1 myid   227 Aug  2 23:24 README.md
+-rw-r--r--. 1 myid     0 Aug  2 23:25 rec32668
+-rw-r--r--. 1 myid    53 Aug  1 18:53 t1.txt
+-rw-r--r--. 1 myid 11796 Aug  2 22:03 #tail.c#
+-rw-r--r--. 1 myid 11730 Aug  2 21:57 tail.c
+-rw-r--r--. 1 myid    89 Jul 28 18:15 true.c
+-rw-r--r--. 1 myid  6655 Aug  2 16:03 #wc.c#
+-rw-r--r--. 1 myid  6654 Aug  2 18:05 wc.c
+/home/myid/jlz44196/cs1730/cs1730-projects/Zhang-Justin-p3:/home/myid/csci-1730

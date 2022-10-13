@@ -1,0 +1,10 @@
+compile:
+	g++ -o arrayutil.o arrayutil.cpp -c -Wall -pedantic-errors
+	g++ -o main.o main.cpp -c -Wall -pedantic-errors
+	g++ -o main main.o arrayutil.o -Wall -pedantic-errors
+run:
+	./main
+clean:
+	rm arrayutil.o
+	rm main.o
+	rm main
