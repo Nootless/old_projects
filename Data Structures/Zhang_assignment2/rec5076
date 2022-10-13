@@ -1,0 +1,13 @@
+Zhang_assignment2:
+total 44
+-rw-r--r--. 1 myid  561 Oct  3 13:03 ItemType.cpp
+-rw-r--r--. 1 myid  251 Sep 27 20:13 ItemType.h
+-rw-r--r--. 1 myid  138 Sep 27 20:18 ListNode.h
+-rw-r--r--. 1 myid 6286 Oct  3 04:35 main.cpp
+-rw-r--r--. 1 myid  385 Oct  2 22:48 Makefile
+-rw-r--r--. 1 myid 1550 Oct  3 04:19 Readme.txt
+-rw-r--r--. 1 myid  543 Oct  3 04:38 rec14408
+-rw-r--r--. 1 myid    0 Oct  3 13:06 rec5076
+-rw-r--r--. 1 myid 6781 Oct  3 04:33 SortedLinkedList.cpp
+-rw-r--r--. 1 myid  546 Oct  3 02:09 SortedLinkedList.h
+/home/myid/jlz44196/cs2720/Zhang_assignment2:/home/myid/csci-2720a

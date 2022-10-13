@@ -1,0 +1,13 @@
+Zhang_assignment3/:
+total 4
+drwxr-xr-x. 2 myid   92 Oct 17 19:43 DoublyLinkedList
+-rw-r--r--. 1 myid 1262 Oct 17 18:11 Readme.txt
+-rw-r--r--. 1 myid    0 Oct 17 19:44 rec12655
+
+Zhang_assignment3/DoublyLinkedList:
+total 28
+-rw-r--r--. 1 myid  7087 Oct 17 18:24 DoublyLinkedList.cpp
+-rw-r--r--. 1 myid   579 Oct 17 07:23 DoublyLinkedList.h
+-rw-r--r--. 1 myid 10959 Oct 17 19:38 main.cpp
+-rw-r--r--. 1 myid   286 Oct 17 18:28 Makefile
+/home/myid/jlz44196/cs2720/Zhang_assignment3/:/home/myid/csci-2720a

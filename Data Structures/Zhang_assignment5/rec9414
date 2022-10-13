@@ -1,0 +1,13 @@
+Zhang_assignment5/:
+total 172
+-rw-r--r--. 1 myid  2137 Nov 22 18:58 main2.cpp
+-rw-r--r--. 1 myid  2086 Nov 22 13:08 main.cpp
+-rw-r--r--. 1 myid   425 Nov 22 22:34 Makefile
+-rw-r--r--. 1 myid 48891 Nov 21 19:37 ordered.txt
+-rw-r--r--. 1 myid 48891 Nov 21 19:37 random.txt
+-rw-r--r--. 1 myid   417 Nov 22 22:35 Readme.txt
+-rw-r--r--. 1 myid     0 Nov 22 22:37 rec9414
+-rw-r--r--. 1 myid 48891 Nov 21 19:37 reverse.txt
+-rw-r--r--. 1 myid  7984 Nov 22 12:58 SortingAlgo.cpp
+-rw-r--r--. 1 myid   856 Nov 22 12:53 SortingAlgo.h
+/home/myid/jlz44196/cs2720/Zhang_assignment5/:/home/myid/csci-2720a

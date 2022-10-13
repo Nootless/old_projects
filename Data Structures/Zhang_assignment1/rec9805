@@ -1,0 +1,14 @@
+Zhang_assignment1/:
+total 56
+-rw-r--r--. 1 myid  7586 Sep  7 13:30 Instructor.cpp
+-rw-r--r--. 1 myid   455 Sep  5 21:03 #Instructor.h#
+-rw-r--r--. 1 myid   455 Sep  5 21:02 Instructor.h
+-rw-r--r--. 1 myid    87 Sep  5 21:42 instructors.txt
+-rw-r--r--. 1 myid 12827 Sep  7 13:23 main.cpp
+-rw-r--r--. 1 myid   382 Sep  7 13:36 Makefile
+-rw-r--r--. 1 myid   168 Sep  7 13:36 Readme.md
+-rw-r--r--. 1 myid     0 Sep  7 13:38 rec9805
+-rw-r--r--. 1 myid  2655 Sep  7 13:32 Student.cpp
+-rw-r--r--. 1 myid   641 Sep  5 15:18 Student.h
+-rw-r--r--. 1 myid   832 Sep  5 21:43 students.txt
+/home/myid/jlz44196/cs2720/Zhang_assignment1/:/home/myid/csci-2720a
